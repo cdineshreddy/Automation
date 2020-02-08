@@ -5,17 +5,24 @@ public class RevSentence {
 	public static void main(String[] args) {
 
 			String s="What is your Name";
-			String rev=" ";
-			int count=0;
-			String[] s1=s.split(" ");
-			int len=s1.length;
-			for(int i=len-1;i>=0;i--)
-			{
-				rev=rev+s1[i]+" ";
-				count=rev.length();
+			
+			String[] words=s.split(" ");
+			String revString=" ";
+			
+			for(int i=0;i<words.length;i++) {
+				String word=words[i];
+				String revWord=" ";
+				
+				for(int j=word.length()-1;j>=0;j--) {
+					revWord=revWord+word.charAt(j);
+					
+				}
+				
+				revString=revString+revWord+" ";
+				
 			}
-			System.out.println(rev);
-			System.out.println(count);
+			System.out.println(revString);
 	}
+
 
 }
