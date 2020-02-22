@@ -11,8 +11,8 @@ public class DesireCap {
 
 		DesiredCapabilities dc = DesiredCapabilities.chrome();
 		dc.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DINESH REDDY\\Desktop\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver(dc);
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://cacert.org/");
 
 	}
