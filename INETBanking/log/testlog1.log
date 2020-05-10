@@ -1,0 +1,4 @@
+2020-05-10 20:23:14,385 [main] INFO Banking - URL is opened
+2020-05-10 20:23:14,563 [main] INFO Banking - Configured Username
+2020-05-10 20:23:14,664 [main] INFO Banking - Configured Password
+2020-05-10 20:23:16,104 [main] INFO Banking - Login Test Passed
