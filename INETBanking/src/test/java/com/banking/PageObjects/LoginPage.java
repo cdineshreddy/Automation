@@ -22,6 +22,9 @@ public class LoginPage {
 	@FindBy(name="btnLogin")
 	private WebElement submit;
 	
+	@FindBy(linkText = "Log out")
+	private WebElement logOut;
+	
 	
 	public void setUsername(String uname) {
 		txtUsername.sendKeys(uname);
@@ -35,4 +38,7 @@ public class LoginPage {
 		submit.click();
 	}
 	
+	public void clickLogOut() {
+		logOut.click();
+	}
 }

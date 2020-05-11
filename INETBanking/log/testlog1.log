@@ -18,3 +18,24 @@
 2020-05-10 23:03:45,458 [main] INFO Banking - Configured Username
 2020-05-10 23:03:45,633 [main] INFO Banking - Configured Password
 2020-05-10 23:03:47,929 [main] INFO Banking - Login Test Passed
+2020-05-11 22:34:56,044 [main] INFO Banking - Username is provided
+2020-05-11 22:34:56,217 [main] INFO Banking - Password is Provided
+2020-05-11 22:35:08,809 [main] INFO Banking - Login Successful
+2020-05-11 22:35:09,183 [main] INFO Banking - Username is provided
+2020-05-11 22:35:09,468 [main] INFO Banking - Password is Provided
+2020-05-11 22:35:15,724 [main] INFO Banking - Username is provided
+2020-05-11 22:35:16,017 [main] INFO Banking - Password is Provided
+2020-05-11 22:39:17,979 [main] INFO Banking - Username is provided
+2020-05-11 22:39:18,180 [main] INFO Banking - Password is Provided
+2020-05-11 22:39:29,687 [main] INFO Banking - Login Successful
+2020-05-11 22:39:30,065 [main] INFO Banking - Username is provided
+2020-05-11 22:39:30,351 [main] INFO Banking - Password is Provided
+2020-05-11 22:39:35,720 [main] INFO Banking - Username is provided
+2020-05-11 22:39:35,884 [main] INFO Banking - Password is Provided
+2020-05-11 22:47:13,974 [main] INFO Banking - Username is provided
+2020-05-11 22:47:14,104 [main] INFO Banking - Password is Provided
+2020-05-11 22:47:25,081 [main] INFO Banking - Login Successful
+2020-05-11 22:47:25,536 [main] INFO Banking - Username is provided
+2020-05-11 22:47:25,754 [main] INFO Banking - Password is Provided
+2020-05-11 22:47:31,905 [main] INFO Banking - Username is provided
+2020-05-11 22:47:32,144 [main] INFO Banking - Password is Provided

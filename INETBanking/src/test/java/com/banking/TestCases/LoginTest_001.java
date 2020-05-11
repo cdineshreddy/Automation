@@ -7,8 +7,8 @@ import com.banking.PageObjects.LoginPage;
 public class LoginTest_001 extends BaseClass{
 	
 	@Test
-	public void loginTest() {
-		driver.get(baseURL);
+	public void loginTest() throws Exception {
+	
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
 		lp.setUsername(username);
@@ -21,6 +21,7 @@ public class LoginTest_001 extends BaseClass{
 			Assert.assertTrue(true);
 			logger.info("Login Test Passed");
 		} else {
+			captureScreenshot(driver, "loginTest");
 			Assert.assertTrue(false);
 			logger.info("Login Test Failed");
 		}
