@@ -51,15 +51,15 @@ public class ExcelUtils {
 		return cellData;
 	}
 	
-	public static void setData(String Result, String xlFile, int rowNum, int colNum ) throws Exception {
+	public static void setData(String xlFile, String xlSheet, String Result, int row, int col ) throws Exception {
 		
-		row = sh.getRow(rowNum);
-		cell = row.getCell(colNum);		
-		cell = row.createCell(colNum);
-		cell.setCellValue(Result);		
-		
-		fos = new FileOutputStream(xlFile);
+		fis = new FileInputStream(xlFile);
+		wb = new HSSFWorkbook(fis);
+		sh = wb.getSheet(xlSheet);
+		sh.createRow(row).createCell(col).setCellValue(Result);
+		FileOutputStream fos = new FileOutputStream(xlFile);
 		wb.write(fos);
+		System.out.println("Value configured");
 		fos.flush();
 		fos.close();
 	}

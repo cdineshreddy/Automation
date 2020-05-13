@@ -39,3 +39,14 @@
 2020-05-11 22:47:25,754 - Banking -INFO - Password is Provided
 2020-05-11 22:47:31,905 - Banking -INFO - Username is provided
 2020-05-11 22:47:32,144 - Banking -INFO - Password is Provided
+2020-05-12 22:35:00,702 - Banking -INFO - URL is opened
+2020-05-12 22:35:00,900 - Banking -INFO - Configured Username
+2020-05-12 22:35:01,053 - Banking -INFO - Configured Password
+2020-05-12 22:35:03,443 - Banking -INFO - Login Test Passed
+2020-05-12 22:35:13,880 - Banking -INFO - Username is provided
+2020-05-12 22:35:14,096 - Banking -INFO - Password is Provided
+2020-05-12 22:35:24,786 - Banking -INFO - Login Successful
+2020-05-12 22:35:25,193 - Banking -INFO - Username is provided
+2020-05-12 22:35:25,509 - Banking -INFO - Password is Provided
+2020-05-12 22:35:31,556 - Banking -INFO - Username is provided
+2020-05-12 22:35:31,860 - Banking -INFO - Password is Provided
