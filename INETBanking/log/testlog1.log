@@ -50,3 +50,97 @@
 2020-05-12 22:35:25,509 [main] INFO Banking - Password is Provided
 2020-05-12 22:35:31,556 [main] INFO Banking - Username is provided
 2020-05-12 22:35:31,860 [main] INFO Banking - Password is Provided
+2020-05-14 22:03:54,791 [main] INFO Banking - Username is configured
+2020-05-14 22:03:54,981 [main] INFO Banking - Password is Configured
+2020-05-14 22:03:57,262 [main] INFO Banking - Click on the submit button
+2020-05-14 22:04:03,228 [main] INFO Banking - Click on the Add Customer link
+2020-05-14 22:04:03,438 [main] INFO Banking - Configured the Customer Name
+2020-05-14 22:04:03,959 [main] INFO Banking - Configured the Date of Birth
+2020-05-14 22:04:07,261 [main] INFO Banking - Configured the Address
+2020-05-14 22:04:07,563 [main] INFO Banking - Configured the City Name
+2020-05-14 22:04:07,827 [main] INFO Banking - Configured the State Name
+2020-05-14 22:04:08,072 [main] INFO Banking - Configured the Pincode
+2020-05-14 22:04:08,406 [main] INFO Banking - Configured the Mobile Number
+2020-05-14 22:04:08,872 [main] INFO Banking - Configured the Mail id
+2020-05-14 22:04:09,138 [main] INFO Banking - Configured the Password
+2020-05-14 22:04:10,986 [main] INFO Banking - Click on the Submit button
+2020-05-14 22:04:14,045 [main] INFO Banking - Customer Registration completed
+2020-05-14 22:31:59,939 [main] INFO Banking - Username is configured
+2020-05-14 22:32:00,270 [main] INFO Banking - Password is Configured
+2020-05-14 22:32:02,832 [main] INFO Banking - Click on the submit button
+2020-05-14 22:32:08,948 [main] INFO Banking - Click on the Add Customer link
+2020-05-14 22:32:09,336 [main] INFO Banking - Configured the Customer Name
+2020-05-14 22:32:10,056 [main] INFO Banking - Configured the Date of Birth
+2020-05-14 22:32:13,264 [main] INFO Banking - Configured the Address
+2020-05-14 22:32:13,468 [main] INFO Banking - Configured the City Name
+2020-05-14 22:32:13,742 [main] INFO Banking - Configured the State Name
+2020-05-14 22:32:14,006 [main] INFO Banking - Configured the Pincode
+2020-05-14 22:32:14,307 [main] INFO Banking - Configured the Mobile Number
+2020-05-14 22:32:14,748 [main] INFO Banking - Configured the Mail id
+2020-05-14 22:32:15,006 [main] INFO Banking - Configured the Password
+2020-05-14 22:32:16,615 [main] INFO Banking - Click on the Submit button
+2020-05-14 22:32:19,667 [main] INFO Banking - Customer Registration completed
+2020-05-14 22:41:40,154 [main] INFO Banking - Username is configured
+2020-05-14 22:41:40,264 [main] INFO Banking - Password is Configured
+2020-05-14 22:41:42,421 [main] INFO Banking - Click on the submit button
+2020-05-14 22:41:49,068 [main] INFO Banking - Click on the Add Customer link
+2020-05-14 22:41:49,472 [main] INFO Banking - Configured the Customer Name
+2020-05-14 22:41:50,189 [main] INFO Banking - Configured the Date of Birth
+2020-05-14 22:41:53,567 [main] INFO Banking - Configured the Address
+2020-05-14 22:41:54,017 [main] INFO Banking - Configured the City Name
+2020-05-14 22:41:54,356 [main] INFO Banking - Configured the State Name
+2020-05-14 22:41:54,672 [main] INFO Banking - Configured the Pincode
+2020-05-14 22:41:54,982 [main] INFO Banking - Configured the Mobile Number
+2020-05-14 22:41:55,511 [main] INFO Banking - Configured the Mail id
+2020-05-14 22:41:55,845 [main] INFO Banking - Configured the Password
+2020-05-14 22:41:58,045 [main] INFO Banking - Click on the Submit button
+2020-05-14 22:42:01,104 [main] INFO Banking - Customer Registration completed
+2020-05-14 22:53:25,838 [main] INFO Banking - Username is configured
+2020-05-14 22:53:25,965 [main] INFO Banking - Password is Configured
+2020-05-14 22:53:27,445 [main] INFO Banking - Click on the submit button
+2020-05-14 22:53:34,043 [main] INFO Banking - Click on the Add Customer link
+2020-05-14 22:53:34,475 [main] INFO Banking - Configured the Customer Name
+2020-05-14 22:53:35,433 [main] INFO Banking - Configured the Date of Birth
+2020-05-14 22:53:38,782 [main] INFO Banking - Configured the Address
+2020-05-14 22:53:39,130 [main] INFO Banking - Configured the City Name
+2020-05-14 22:53:39,539 [main] INFO Banking - Configured the State Name
+2020-05-14 22:53:39,847 [main] INFO Banking - Configured the Pincode
+2020-05-14 22:53:40,200 [main] INFO Banking - Configured the Mobile Number
+2020-05-14 22:53:40,750 [main] INFO Banking - Configured the Mail id
+2020-05-14 22:53:41,028 [main] INFO Banking - Configured the Password
+2020-05-14 22:53:42,890 [main] INFO Banking - Click on the Submit button
+2020-05-14 22:53:45,950 [main] INFO Banking - Customer Registration completed
+2020-05-15 21:35:35,706 [main] INFO Banking - Username is configured
+2020-05-15 21:35:35,796 [main] INFO Banking - Password is Configured
+2020-05-15 21:35:37,461 [main] INFO Banking - Click on the submit button
+2020-05-15 21:35:43,528 [main] INFO Banking - Click on the Add Customer link
+2020-05-15 21:35:43,657 [main] INFO Banking - Configured the Customer Name
+2020-05-15 21:35:43,946 [main] INFO Banking - Configured the Date of Birth
+2020-05-15 21:35:47,261 [main] INFO Banking - Configured the Address
+2020-05-15 21:35:47,477 [main] INFO Banking - Configured the City Name
+2020-05-15 21:35:47,623 [main] INFO Banking - Configured the State Name
+2020-05-15 21:35:47,721 [main] INFO Banking - Configured the Pincode
+2020-05-15 21:35:47,821 [main] INFO Banking - Configured the Mobile Number
+2020-05-15 21:35:47,978 [main] INFO Banking - Configured the Mail id
+2020-05-15 21:35:48,070 [main] INFO Banking - Configured the Password
+2020-05-15 21:35:49,524 [main] INFO Banking - Click on the Submit button
+2020-05-15 21:35:52,546 [main] INFO Banking - Customer Registration completed
+2020-05-15 22:25:34,610 [main] INFO Banking - Username is configured
+2020-05-15 22:25:40,723 [main] INFO Banking - Password is Configured
+2020-05-15 22:25:52,902 [main] INFO Banking - Click on the submit button
+2020-05-15 22:26:06,685 [main] INFO Banking - Click on the Add Customer link
+2020-05-15 22:28:04,497 [main] INFO Banking - Username is configured
+2020-05-15 22:28:04,580 [main] INFO Banking - Password is Configured
+2020-05-15 22:28:06,017 [main] INFO Banking - Click on the submit button
+2020-05-15 22:28:12,097 [main] INFO Banking - Click on the Add Customer link
+2020-05-15 22:28:12,387 [main] INFO Banking - Configured the Customer Name
+2020-05-15 22:28:12,779 [main] INFO Banking - Configured the Date of Birth
+2020-05-15 22:28:16,076 [main] INFO Banking - Configured the Address
+2020-05-15 22:28:16,266 [main] INFO Banking - Configured the City Name
+2020-05-15 22:28:16,353 [main] INFO Banking - Configured the State Name
+2020-05-15 22:28:16,440 [main] INFO Banking - Configured the Pincode
+2020-05-15 22:28:16,531 [main] INFO Banking - Configured the Mobile Number
+2020-05-15 22:28:16,663 [main] INFO Banking - Configured the Mail id
+2020-05-15 22:28:16,735 [main] INFO Banking - Configured the Password
+2020-05-15 22:28:18,117 [main] INFO Banking - Click on the Submit button
+2020-05-15 22:28:21,154 [main] INFO Banking - Customer Registration completed

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -59,4 +60,13 @@ public class BaseClass {
 		
 	}
 	
+	public String randomString() {
+		String generateString=RandomStringUtils.randomAlphabetic(8);
+		return(generateString);
+	}
+	
+	public String randomNumber() {
+		String generateNumber=RandomStringUtils.randomNumeric(10);
+		return(generateNumber);
+	}
 }
