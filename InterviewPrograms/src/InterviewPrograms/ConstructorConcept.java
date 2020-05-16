@@ -10,12 +10,12 @@ class A {
 
 	public A(int i) {
 		this(5, 10);
-		System.out.println(i);
+		System.out.println(i);//5
 	}
 
 	public A(int i,int j) {
 
-		System.out.println(i*j);
+		System.out.println(i*j);//50
 	}
 }
 

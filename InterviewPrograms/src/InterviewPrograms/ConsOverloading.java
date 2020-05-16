@@ -9,7 +9,7 @@ public class ConsOverloading {
 	
 	ConsOverloading(int a, int b)
 	{
-		this();//this command will use to call the constructor.
+		this();//this command will use to call the parent constructor.
 		System.out.println(a+b);
 	}
 

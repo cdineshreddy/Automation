@@ -8,9 +8,9 @@ public class AuthenticationHandle {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DINESH REDDY\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("disable-infobars");
+		option.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"}); 
 		ChromeDriver driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

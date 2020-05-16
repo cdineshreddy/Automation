@@ -19,7 +19,7 @@ public class Upload {
 		
 		WebElement element=driver.findElement(By.xpath(".//*[@id='myFile']"));
 		element.click();
-		Runtime.getRuntime().exec("F:\\Selenium\\My Work\\upload.exe");
+		Runtime.getRuntime().exec("D:\\Learning Selenium\\TestData\\FileUpload.exe");
 	}
 
 }

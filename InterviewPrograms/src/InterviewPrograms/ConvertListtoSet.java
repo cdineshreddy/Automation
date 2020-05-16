@@ -18,13 +18,13 @@ public class ConvertListtoSet {
 		
 		for(int no:list)
 		{
-			System.out.println(no);
+			System.out.println(no);//[1,3,5,4,4]
 		}
 		
 		Set<Integer> set=new HashSet<Integer>(list);
 		for(int no:set)
 		{
-			System.out.println(no);
+			System.out.println(no);//[1,3,5,4]
 		}
 
 	}

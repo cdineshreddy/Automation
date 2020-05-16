@@ -12,7 +12,7 @@ public class JavaScript {
 	
 	public static void main(String[] args) throws Throwable {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\DINESH REDDY\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.get("http://google.com");
@@ -20,10 +20,11 @@ public class JavaScript {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		JavascriptExecutor js= (JavascriptExecutor)driver;
-		js.executeScript("alert('hello java');");
+		//js.executeScript("alert('hello java');");
 		//js.executeScript("scroll(0, 550)");
-		//js.executeScript("window.scrollBy(0,250)", "");//to scroll the page
-				
+		js.executeScript("window.scrollBy(0,250)", "");//to scroll the page
+		Thread.sleep(5000);	
+		driver.close();
 	}
 	
 
