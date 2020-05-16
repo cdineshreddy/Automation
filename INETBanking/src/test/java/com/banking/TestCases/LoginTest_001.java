@@ -3,6 +3,7 @@ package com.banking.TestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.banking.PageObjects.LoginPage;
+import com.banking.Utilities.CommonUtils;
 
 public class LoginTest_001 extends BaseClass{
 	
@@ -15,11 +16,12 @@ public class LoginTest_001 extends BaseClass{
 		logger.info("Configured Username");
 		lp.setPassword(password);
 		logger.info("Configured Password");
-		lp.clickSubmit();
+		lp.clickSubmit();	
 		
 		if (driver.getTitle().contains("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
 			logger.info("Login Test Passed");
+			CommonUtils.verifyLinks();
 		} else {
 			captureScreenshot(driver, "loginTest");
 			Assert.assertTrue(false);

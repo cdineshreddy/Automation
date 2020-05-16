@@ -9,8 +9,8 @@
 		<test name="BankingApp Test">
 			<parameter name="browser" value ="chrome"></parameter>
 			<classes>
-				<!-- <class name="com.banking.TestCases.LoginTest_001"></class>
-				<class name="com.banking.TestCases.LoginTest_002"></class> -->
+			<!-- 	<class name="com.banking.TestCases.LoginTest_001"></class>
+				 <class name="com.banking.TestCases.LoginTest_002"></class>  -->
 				<class name="com.banking.TestCases.AddCustomer_003"></class>
 			</classes>
 		</test>

@@ -144,3 +144,95 @@
 2020-05-15 22:28:16,735 [main] INFO Banking - Configured the Password
 2020-05-15 22:28:18,117 [main] INFO Banking - Click on the Submit button
 2020-05-15 22:28:21,154 [main] INFO Banking - Customer Registration completed
+2020-05-16 12:06:15,323 [main] INFO Banking - URL is opened
+2020-05-16 12:06:15,574 [main] INFO Banking - Configured Username
+2020-05-16 12:06:15,715 [main] INFO Banking - Configured Password
+2020-05-16 12:06:17,537 [main] INFO Banking - Login Test Passed
+2020-05-16 12:06:52,694 [main] INFO Banking - Username is configured
+2020-05-16 12:06:52,848 [main] INFO Banking - Password is Configured
+2020-05-16 12:06:54,852 [main] INFO Banking - Click on the submit button
+2020-05-16 12:06:56,964 [main] INFO Banking - Click on the Add Customer link
+2020-05-16 12:06:57,194 [main] INFO Banking - Configured the Customer Name
+2020-05-16 12:06:57,715 [main] INFO Banking - Configured the Date of Birth
+2020-05-16 12:06:58,041 [main] INFO Banking - Configured the Address
+2020-05-16 12:06:58,310 [main] INFO Banking - Configured the City Name
+2020-05-16 12:06:58,650 [main] INFO Banking - Configured the State Name
+2020-05-16 12:06:58,935 [main] INFO Banking - Configured the Pincode
+2020-05-16 12:06:59,194 [main] INFO Banking - Configured the Mobile Number
+2020-05-16 12:06:59,705 [main] INFO Banking - Configured the Mail id
+2020-05-16 12:06:59,823 [main] INFO Banking - Configured the Password
+2020-05-16 12:07:01,803 [main] INFO Banking - Click on the Submit button
+2020-05-16 12:07:04,843 [main] INFO Banking - Customer Registration completed
+2020-05-16 21:58:39,564 [main] INFO Banking - Username is configured
+2020-05-16 21:58:39,727 [main] INFO Banking - Password is Configured
+2020-05-16 21:58:41,281 [main] INFO Banking - Click on the submit button
+2020-05-16 22:07:20,231 [main] INFO Banking - Username is configured
+2020-05-16 22:07:20,323 [main] INFO Banking - Password is Configured
+2020-05-16 22:07:21,911 [main] INFO Banking - Click on the submit button
+2020-05-16 22:07:22,591 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php#: is valid
+2020-05-16 22:07:23,166 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php#: is valid
+2020-05-16 22:07:23,729 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php#: is valid
+2020-05-16 22:07:24,368 [main] INFO Banking - http://demo.guru99.com/test/flash-testing.html: is valid
+2020-05-16 22:07:24,926 [main] INFO Banking - http://demo.guru99.com/test/radio.html: is valid
+2020-05-16 22:07:25,451 [main] INFO Banking - http://demo.guru99.com/test/table.html: is valid
+2020-05-16 22:07:55,819 [main] INFO Banking - http://demo.guru99.com/test/link.html: is valid
+2020-05-16 22:07:56,377 [main] INFO Banking - http://demo.guru99.com/test/ajax.html: is valid
+2020-05-16 22:07:56,895 [main] INFO Banking - http://demo.guru99.com/test/block.html: is valid
+2020-05-16 22:07:57,460 [main] INFO Banking - http://demo.guru99.com/test/delete_customer.php: is valid
+2020-05-16 22:07:57,979 [main] INFO Banking - http://demo.guru99.com/test/yahoo.html: is valid
+2020-05-16 22:07:58,538 [main] INFO Banking - http://demo.guru99.com/test/tooltip.html: is valid
+2020-05-16 22:07:59,109 [main] INFO Banking - http://demo.guru99.com/test/upload/: is valid
+2020-05-16 22:07:59,623 [main] INFO Banking - http://demo.guru99.com/test/login.html: is valid
+2020-05-16 22:08:00,128 [main] INFO Banking - http://demo.guru99.com/test/social-icon.html: is valid
+2020-05-16 22:08:00,662 [main] INFO Banking - http://demo.guru99.com/test/autoit.html: is valid
+2020-05-16 22:08:01,201 [main] INFO Banking - http://demo.guru99.com/test/facebook.html: is valid
+2020-05-16 22:08:01,751 [main] INFO Banking - http://demo.guru99.com/test/guru99home/: is valid
+2020-05-16 22:08:02,276 [main] INFO Banking - http://demo.guru99.com/test/guru99home/scrolling.html: is valid
+2020-05-16 22:08:02,833 [main] INFO Banking - http://demo.guru99.com/test/image_upload/: is valid
+2020-05-16 22:08:03,370 [main] INFO Banking - http://demo.guru99.com/test/cookie/selenium_aut.php: is valid
+2020-05-16 22:08:03,893 [main] INFO Banking - http://demo.guru99.com/test/drag_drop.html: is valid
+2020-05-16 22:08:04,483 [main] INFO Banking - http://demo.guru99.com/test/: is valid
+2020-05-16 22:08:05,036 [main] INFO Banking - http://demo.guru99.com/insurance/v1/index.php: is valid
+2020-05-16 22:08:05,583 [main] INFO Banking - http://demo.guru99.com/Agile_Project/Agi_V1/: is valid
+2020-05-16 22:08:06,252 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php#: is valid
+2020-05-16 22:08:06,805 [main] INFO Banking - http://demo.guru99.com/V1/index.php: is valid
+2020-05-16 22:08:07,478 [main] INFO Banking - http://demo.guru99.com/V2/index.php: is valid
+2020-05-16 22:08:08,029 [main] INFO Banking - http://demo.guru99.com/v3/index.php: is valid
+2020-05-16 22:08:08,590 [main] INFO Banking - http://demo.guru99.com/Security/SEC_V1/index.php: is valid
+2020-05-16 22:08:09,112 [main] INFO Banking - http://demo.guru99.com/telecom/index.html: is valid
+2020-05-16 22:08:09,672 [main] INFO Banking - http://demo.guru99.com/payment-gateway/index.php: is valid
+2020-05-16 22:08:10,250 [main] INFO Banking - http://demo.guru99.com/test/newtours/: is valid
+2020-05-16 22:08:10,799 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php#: is valid
+2020-05-16 22:08:11,297 [main] INFO Banking - http://demo.guru99.com/seo/page-1.html: is valid
+2020-05-16 22:08:11,876 [main] INFO Banking - http://demo.guru99.com/seo/page-2.html: is valid
+2020-05-16 22:08:12,408 [main] INFO Banking - http://demo.guru99.com/seo/page-3.html: is valid
+2020-05-16 22:08:13,012 [main] INFO Banking - http://demo.guru99.com/seo/page-4.html: is valid
+2020-05-16 22:08:13,519 [main] INFO Banking - http://demo.guru99.com/seo/page-5.html: is valid
+2020-05-16 22:08:14,044 [main] INFO Banking - http://demo.guru99.com/seo/page-6.html: is valid
+2020-05-16 22:08:14,587 [main] INFO Banking - http://demo.guru99.com/V4/manager/Managerhomepage.php: is valid
+2020-05-16 22:08:15,142 [main] INFO Banking - http://demo.guru99.com/V4/manager/addcustomerpage.php: is valid
+2020-05-16 22:08:15,694 [main] INFO Banking - http://demo.guru99.com/V4/manager/EditCustomer.php: is valid
+2020-05-16 22:08:16,249 [main] INFO Banking - http://demo.guru99.com/V4/manager/DeleteCustomerInput.php: is valid
+2020-05-16 22:08:16,790 [main] INFO Banking - http://demo.guru99.com/V4/manager/addAccount.php: is valid
+2020-05-16 22:08:17,359 [main] INFO Banking - http://demo.guru99.com/V4/manager/editAccount.php: is valid
+2020-05-16 22:08:17,917 [main] INFO Banking - http://demo.guru99.com/V4/manager/deleteAccountInput.php: is valid
+2020-05-16 22:08:18,480 [main] INFO Banking - http://demo.guru99.com/V4/manager/DepositInput.php: is valid
+2020-05-16 22:08:18,991 [main] INFO Banking - http://demo.guru99.com/V4/manager/WithdrawalInput.php: is valid
+2020-05-16 22:08:19,539 [main] INFO Banking - http://demo.guru99.com/V4/manager/FundTransInput.php: is valid
+2020-05-16 22:08:20,095 [main] INFO Banking - http://demo.guru99.com/V4/manager/PasswordInput.php: is valid
+2020-05-16 22:08:20,667 [main] INFO Banking - http://demo.guru99.com/V4/manager/BalEnqInput.php: is valid
+2020-05-16 22:08:21,240 [main] INFO Banking - http://demo.guru99.com/V4/manager/MiniStatementInput.php: is valid
+2020-05-16 22:08:21,794 [main] INFO Banking - http://demo.guru99.com/V4/manager/CustomisedStatementInput.php: is valid
+2020-05-16 22:08:22,400 [main] INFO Banking - http://demo.guru99.com/V4/manager/Logout.php: is valid
+2020-05-16 22:08:24,069 [main] INFO Banking - Click on the Add Customer link
+2020-05-16 22:08:24,569 [main] INFO Banking - Configured the Customer Name
+2020-05-16 22:08:25,350 [main] INFO Banking - Configured the Date of Birth
+2020-05-16 22:08:25,472 [main] INFO Banking - Configured the Address
+2020-05-16 22:08:25,602 [main] INFO Banking - Configured the City Name
+2020-05-16 22:08:25,703 [main] INFO Banking - Configured the State Name
+2020-05-16 22:08:25,803 [main] INFO Banking - Configured the Pincode
+2020-05-16 22:08:25,916 [main] INFO Banking - Configured the Mobile Number
+2020-05-16 22:08:26,078 [main] INFO Banking - Configured the Mail id
+2020-05-16 22:08:26,165 [main] INFO Banking - Configured the Password
+2020-05-16 22:08:27,605 [main] INFO Banking - Click on the Submit button
+2020-05-16 22:08:30,665 [main] INFO Banking - Customer Registration completed

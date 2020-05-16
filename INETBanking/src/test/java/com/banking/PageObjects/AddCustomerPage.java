@@ -5,8 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import com.banking.Utilities.CommonUtils;
 
-public class AddCustomerPage {
+public class AddCustomerPage extends CommonUtils{
 	
 	WebDriver driver;
 	public AddCustomerPage(WebDriver driver) {
@@ -52,6 +53,7 @@ public class AddCustomerPage {
 	private WebElement submit;
 	
 	public void clickAddCustomer() {
+		elementVisble(linkNewCustomer, driver, 30);
 		linkNewCustomer.click();
 	}
 	

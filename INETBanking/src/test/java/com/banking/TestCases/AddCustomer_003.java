@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.banking.PageObjects.AddCustomerPage;
 import com.banking.PageObjects.LoginPage;
 
+
 public class AddCustomer_003 extends BaseClass{
 	
 	@Test
@@ -17,7 +18,6 @@ public class AddCustomer_003 extends BaseClass{
 		lp.clickSubmit();
 		logger.info("Click on the submit button");
 		
-		Thread.sleep(5000);
 		AddCustomerPage cp=new AddCustomerPage(driver);
 		cp.clickAddCustomer();
 		logger.info("Click on the Add Customer link");
@@ -26,7 +26,6 @@ public class AddCustomer_003 extends BaseClass{
 		cp.customerGender("male");
 		cp.customerDOB("19", "10", "1985");
 		logger.info("Configured the Date of Birth");
-		Thread.sleep(3000);
 		cp.custAddress("Bangalore");
 		logger.info("Configured the Address");
 		cp.custCity("Bangalore");
