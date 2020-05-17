@@ -44,5 +44,8 @@
 	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/selenium-server-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/selenium-server-3.141.59/libs/snakeyaml-1.19.jar"/>
 	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/sikulix-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/ashot-1.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/Learning Selenium/Selenium Software/hamcrest-all-1.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
