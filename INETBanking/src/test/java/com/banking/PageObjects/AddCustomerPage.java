@@ -62,16 +62,19 @@ public class AddCustomerPage extends CommonUtils{
 	}
 	
 	public void customerGender(String cgender) {
+		elementVisble(gender, driver, 30);
 		gender.click();
 	}
 	
 	public void customerDOB(String mm,String dd, String yy) {
+		elementVisble(birthDate, driver, 30);
 		birthDate.sendKeys(mm);
 		birthDate.sendKeys(dd);
 		birthDate.sendKeys(yy);
 	}
 	
 	public void custAddress(String add) {
+		elementVisble(address, driver, 30);
 		address.sendKeys(add);
 	}
 	

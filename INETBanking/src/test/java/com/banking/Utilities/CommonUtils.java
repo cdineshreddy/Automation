@@ -3,6 +3,7 @@ package com.banking.Utilities;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -70,5 +71,21 @@ public class CommonUtils extends BaseClass{
 			logger.error("Unable to verfiy the links", e);
 		}
 
+	}
+	
+	//This method is used to switch from parent window to child window
+	public static void switchWindow(WebDriver driver, String pageTitle) {
+		try {
+			Set<String> windows=driver.getWindowHandles();
+			for(String window:windows) {
+				if(pageTitle.contains(driver.getTitle())) {
+					driver.switchTo().window(window);
+				}
+			}
+			
+		}catch(Exception e) {
+			logger.error("Unable to to switch to the window");
+			logger.error(e.getMessage());
+		}
 	}
 }

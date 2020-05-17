@@ -280,3 +280,18 @@
 2020-05-16 22:38:51,460 [main] INFO Banking - Configured the Password
 2020-05-16 22:38:53,413 [main] INFO Banking - Click on the Submit button
 2020-05-16 22:38:56,694 [main] INFO Banking - Customer Registration completed
+2020-05-17 22:04:03,601 [main] INFO Banking - Username is configured
+2020-05-17 22:04:04,098 [main] INFO Banking - Password is Configured
+2020-05-17 22:04:04,402 [main] INFO Banking - Click on the submit button
+2020-05-17 22:04:06,194 [main] INFO Banking - Click on the Add Customer link
+2020-05-17 22:04:06,945 [main] INFO Banking - Configured the Customer Name
+2020-05-17 22:06:15,147 [main] INFO Banking - Username is configured
+2020-05-17 22:06:15,651 [main] INFO Banking - Password is Configured
+2020-05-17 22:06:16,058 [main] INFO Banking - Click on the submit button
+2020-05-17 22:06:17,756 [main] INFO Banking - Click on the Add Customer link
+2020-05-17 22:06:18,350 [main] INFO Banking - Configured the Customer Name
+2020-05-17 22:07:17,565 [main] INFO Banking - Username is configured
+2020-05-17 22:07:18,082 [main] INFO Banking - Password is Configured
+2020-05-17 22:07:18,398 [main] INFO Banking - Click on the submit button
+2020-05-17 22:07:20,172 [main] INFO Banking - Click on the Add Customer link
+2020-05-17 22:07:20,698 [main] INFO Banking - Configured the Customer Name
