@@ -2,59 +2,47 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="INETBanking" duration-ms="9486" started-at="2020-05-17T16:37:13Z" finished-at="2020-05-17T16:37:23Z">
+  <suite name="INETBanking" duration-ms="34052" started-at="2020-05-19T15:22:24Z" finished-at="2020-05-19T15:22:59Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="9486" started-at="2020-05-17T16:37:13Z" finished-at="2020-05-17T16:37:23Z">
+    <test name="BankingApp Test" duration-ms="34052" started-at="2020-05-19T15:22:24Z" finished-at="2020-05-19T15:22:59Z">
       <class name="com.banking.TestCases.AddCustomer_003">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="setUp" is-config="true" duration-ms="3035" started-at="2020-05-17T16:37:13Z" finished-at="2020-05-17T16:37:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="setUp" is-config="true" duration-ms="9952" started-at="2020-05-19T15:22:25Z" finished-at="2020-05-19T15:22:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="addNewCustomer" duration-ms="5826" started-at="2020-05-17T16:37:16Z" finished-at="2020-05-17T16:37:22Z">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
+        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="addNewCustomer" duration-ms="22330" started-at="2020-05-19T15:22:35Z" finished-at="2020-05-19T15:22:57Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[Date must be in the format YYYY-MM-DD
+              <![CDATA[Dismissed user prompt dialog: please fill all fields: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DINESHREDDY', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 65827551-B271-461E-A6ED-9932924A9A5F]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12044, moz:profile: C:\Users\dines\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbed3a2-07d8-4666-b7f3-bd86ae369eae]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Date must be in the format YYYY-MM-DD
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: please fill all fields: 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DINESHREDDY', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 44.18362.449.0, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 65827551-B271-461E-A6ED-9932924A9A5F
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12044, moz:profile: C:\Users\dines\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1bbed3a2-07d8-4666-b7f3-bd86ae369eae
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-at com.banking.PageObjects.AddCustomerPage.customerDOB(AddCustomerPage.java:71)
-at com.banking.TestCases.AddCustomer_003.addNewCustomer(AddCustomer_003.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:438)
+at com.banking.TestCases.AddCustomer_003.addNewCustomer(AddCustomer_003.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,11 +70,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="tearDown" is-config="true" duration-ms="441" started-at="2020-05-17T16:37:22Z" finished-at="2020-05-17T16:37:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.TestCases.AddCustomer_003@2aa5fe93]" name="tearDown" is-config="true" duration-ms="1613" started-at="2020-05-19T15:22:57Z" finished-at="2020-05-19T15:22:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

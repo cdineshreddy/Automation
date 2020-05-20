@@ -43,4 +43,8 @@ public class ReadConfig {
 		return edgepath;
 	}
 	
+	public String getFirefoxPath() {
+		String firefoxpath=property.getProperty("firefoxpath");
+		return firefoxpath;
+	}
 }

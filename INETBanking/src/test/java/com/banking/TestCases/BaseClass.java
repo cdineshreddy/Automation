@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -38,6 +39,9 @@ public class BaseClass {
 		} else if (br.equals("edge")) {
 			System.setProperty("webdriver.edge.driver", config.getEdgePath());
 			driver = new EdgeDriver();
+		} else if(br.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", config.getFirefoxPath());
+			driver=new FirefoxDriver();
 		}
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

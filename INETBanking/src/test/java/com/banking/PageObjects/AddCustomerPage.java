@@ -67,9 +67,9 @@ public class AddCustomerPage extends CommonUtils{
 	}
 	
 	public void customerDOB(String mm,String dd, String yy) {
-		elementVisble(birthDate, driver, 30);
+
 		birthDate.sendKeys(mm);
-		birthDate.sendKeys(dd);
+		birthDate.sendKeys(dd);	
 		birthDate.sendKeys(yy);
 	}
 	

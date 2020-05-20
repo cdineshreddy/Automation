@@ -10,6 +10,7 @@ public class AddCustomer_003 extends BaseClass{
 	
 	@Test
 	public void addNewCustomer() throws Exception{
+		
 		LoginPage lp=new LoginPage(driver);
 		lp.setUsername(username);
 		logger.info("Username is configured");
