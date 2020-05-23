@@ -337,3 +337,32 @@
 2020-05-19 20:52:54,198 - Banking -INFO - Configured the Mail id
 2020-05-19 20:52:54,231 - Banking -INFO - Configured the Password
 2020-05-19 20:52:54,282 - Banking -INFO - Click on the Submit button
+2020-05-23 10:43:10,825 - Banking -INFO - Username is configured
+2020-05-23 10:43:11,020 - Banking -INFO - Password is Configured
+2020-05-23 10:43:15,087 - Banking -INFO - Click on the submit button
+2020-05-23 10:43:18,507 - Banking -INFO - Click on the Add Customer link
+2020-05-23 10:43:18,732 - Banking -INFO - Configured the Customer Name
+2020-05-23 10:43:19,283 - Banking -INFO - Configured the Date of Birth
+2020-05-23 10:43:19,500 - Banking -INFO - Configured the Address
+2020-05-23 10:43:19,610 - Banking -INFO - Configured the City Name
+2020-05-23 10:43:19,754 - Banking -INFO - Configured the State Name
+2020-05-23 10:43:19,862 - Banking -INFO - Configured the Pincode
+2020-05-23 10:43:19,958 - Banking -INFO - Configured the Mobile Number
+2020-05-23 10:43:20,059 - Banking -INFO - Configured the Mail id
+2020-05-23 10:43:20,143 - Banking -INFO - Configured the Password
+2020-05-23 10:43:20,259 - Banking -INFO - Click on the Submit button
+2020-05-23 11:02:06,228 - Banking -INFO - Username is configured
+2020-05-23 11:02:16,913 - Banking -INFO - Password is Configured
+2020-05-23 11:02:27,147 - Banking -INFO - Click on the submit button
+2020-05-23 11:02:28,445 - Banking -INFO - Click on the Add Customer link
+2020-05-23 11:02:28,703 - Banking -INFO - Configured the Customer Name
+2020-05-23 11:02:29,537 - Banking -INFO - Configured the Date of Birth
+2020-05-23 11:02:30,183 - Banking -INFO - Configured the Address
+2020-05-23 11:02:30,394 - Banking -INFO - Configured the City Name
+2020-05-23 11:02:30,601 - Banking -INFO - Configured the State Name
+2020-05-23 11:02:30,871 - Banking -INFO - Configured the Pincode
+2020-05-23 11:02:31,127 - Banking -INFO - Configured the Mobile Number
+2020-05-23 11:02:31,404 - Banking -INFO - Configured the Mail id
+2020-05-23 11:02:31,550 - Banking -INFO - Configured the Password
+2020-05-23 11:02:32,350 - Banking -INFO - Click on the Submit button
+2020-05-23 11:02:35,498 - Banking -INFO - Customer Registration completed

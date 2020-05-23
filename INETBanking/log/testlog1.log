@@ -337,3 +337,32 @@
 2020-05-19 20:52:54,198 [main] INFO Banking - Configured the Mail id
 2020-05-19 20:52:54,231 [main] INFO Banking - Configured the Password
 2020-05-19 20:52:54,282 [main] INFO Banking - Click on the Submit button
+2020-05-23 10:43:10,825 [main] INFO Banking - Username is configured
+2020-05-23 10:43:11,020 [main] INFO Banking - Password is Configured
+2020-05-23 10:43:15,087 [main] INFO Banking - Click on the submit button
+2020-05-23 10:43:18,507 [main] INFO Banking - Click on the Add Customer link
+2020-05-23 10:43:18,732 [main] INFO Banking - Configured the Customer Name
+2020-05-23 10:43:19,283 [main] INFO Banking - Configured the Date of Birth
+2020-05-23 10:43:19,500 [main] INFO Banking - Configured the Address
+2020-05-23 10:43:19,610 [main] INFO Banking - Configured the City Name
+2020-05-23 10:43:19,754 [main] INFO Banking - Configured the State Name
+2020-05-23 10:43:19,862 [main] INFO Banking - Configured the Pincode
+2020-05-23 10:43:19,958 [main] INFO Banking - Configured the Mobile Number
+2020-05-23 10:43:20,059 [main] INFO Banking - Configured the Mail id
+2020-05-23 10:43:20,143 [main] INFO Banking - Configured the Password
+2020-05-23 10:43:20,259 [main] INFO Banking - Click on the Submit button
+2020-05-23 11:02:06,228 [main] INFO Banking - Username is configured
+2020-05-23 11:02:16,913 [main] INFO Banking - Password is Configured
+2020-05-23 11:02:27,147 [main] INFO Banking - Click on the submit button
+2020-05-23 11:02:28,445 [main] INFO Banking - Click on the Add Customer link
+2020-05-23 11:02:28,703 [main] INFO Banking - Configured the Customer Name
+2020-05-23 11:02:29,537 [main] INFO Banking - Configured the Date of Birth
+2020-05-23 11:02:30,183 [main] INFO Banking - Configured the Address
+2020-05-23 11:02:30,394 [main] INFO Banking - Configured the City Name
+2020-05-23 11:02:30,601 [main] INFO Banking - Configured the State Name
+2020-05-23 11:02:30,871 [main] INFO Banking - Configured the Pincode
+2020-05-23 11:02:31,127 [main] INFO Banking - Configured the Mobile Number
+2020-05-23 11:02:31,404 [main] INFO Banking - Configured the Mail id
+2020-05-23 11:02:31,550 [main] INFO Banking - Configured the Password
+2020-05-23 11:02:32,350 [main] INFO Banking - Click on the Submit button
+2020-05-23 11:02:35,498 [main] INFO Banking - Customer Registration completed
