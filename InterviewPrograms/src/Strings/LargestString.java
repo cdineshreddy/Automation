@@ -1,4 +1,4 @@
-package NewPrograms;
+package Strings;
 
 public class LargestString {
 

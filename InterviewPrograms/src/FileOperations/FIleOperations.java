@@ -1,4 +1,4 @@
-package NewPrograms;
+package FileOperations;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,7 +16,7 @@ public class FIleOperations {
 
 	public static void main(String[] args) throws IOException {
 
-		File file = new File("D:\\Learning Selenium\\TestData\\file.txt");
+		File file = new File("./TestData/file.txt");
 		FileInputStream fis = new FileInputStream(file);
 		InputStreamReader input = new InputStreamReader(fis);
 		BufferedReader reader = new BufferedReader(input);

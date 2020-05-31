@@ -1,4 +1,4 @@
-package NewPrograms;
+package Strings;
 import java.util.*;
 
 public class RemoveDuplicateStrings {
