@@ -2,7 +2,7 @@ package InterviewPrograms;
 
 public class Min_Max_Value {
 
-	public static int[] minValue(int[] n) {
+	public static void minValue(int[] n) {
 		int len = n.length;
 		int min = n[0];
 		for (int i = 1; i < len; i++) {
@@ -10,10 +10,10 @@ public class Min_Max_Value {
 				min = n[i];
 			}
 		}
-		return n;
+		System.out.println(min);
 	}
 
-	public static int[] maxValue(int[] n) {
+	public static void maxValue(int[] n) {
 		int len = n.length;
 		int max = n[0];
 		for (int i = 1; i < len; i++) {
@@ -21,13 +21,14 @@ public class Min_Max_Value {
 				max = n[i];
 			}
 		}
-		return n;
+		System.out.println(max);
 	}
 
 	public static void main(String[] args) {
 
 		int a[]={1,5,4,3,3};
-		System.out.println("Minimum Value of the given array is : "+ minValue(a));
+		maxValue(a);
+		minValue(a);
 		
 	}
 
