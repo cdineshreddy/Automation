@@ -12,8 +12,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-
-
 public class BrokenLinks {
 
 	public static void verifyLink(URL url) throws Exception {
