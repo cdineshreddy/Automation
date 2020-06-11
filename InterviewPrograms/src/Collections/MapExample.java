@@ -1,4 +1,4 @@
-package NewPrograms;
+package Collections;
 
 import java.util.HashMap;
 import org.openqa.selenium.By;

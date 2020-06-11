@@ -1,4 +1,4 @@
-package NewPrograms;
+package ArrayPrograms;
 
 public class MoveAllZeros {
 

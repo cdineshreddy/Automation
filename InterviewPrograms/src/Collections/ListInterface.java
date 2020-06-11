@@ -1,15 +1,14 @@
-package InterviewPrograms;
+package Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.ListIterator;
 
 public class ListInterface {
 
 	public static void main(String[] args) {
 		
-		List<String> l=new ArrayList<String>();
+		ArrayList<String> l=new ArrayList<String>();
 		l.add("Dinesh");
 		l.add("Reddy");
 		l.add("Chinakampalle");

@@ -1,4 +1,4 @@
-package InterviewPrograms;
+package ArrayPrograms;
 
 public class SortingNumbers {
 
