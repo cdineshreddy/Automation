@@ -11,8 +11,6 @@ public class FileDownloadUsingFirefox {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
-	
-		
 		FirefoxProfile profile = new FirefoxProfile();
 		//https://www.sitepoint.com/mime-types-complete-list/
 		profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "text/plain");
@@ -27,6 +25,7 @@ public class FileDownloadUsingFirefox {
 		driver.findElement(By.id("createTxt")).click();
 		driver.findElement(By.id("link-to-download")).click();
 		driver.quit();
+		
 	}
 
 }

@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestChromeBrowser(failed)">
     <classes>
-      <class name="NewPrograms.AuthenticationPopup">
+      <class name="NewPrograms.CrossBrowserTesting">
         <methods>
-          <include name="test2"/>
+          <include name="setUp"/>
+          <include name="getPagetitle"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- NewPrograms.AuthenticationPopup -->
+      </class> <!-- NewPrograms.CrossBrowserTesting -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestChromeBrowser(failed) -->
+  <test thread-count="5" name="TestFirefoxBrowser(failed)">
+    <classes>
+      <class name="NewPrograms.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="getPagetitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- NewPrograms.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- TestFirefoxBrowser(failed) -->
+  <test thread-count="5" name="TestEdgeBrowser(failed)">
+    <classes>
+      <class name="NewPrograms.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="getPagetitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- NewPrograms.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- TestEdgeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

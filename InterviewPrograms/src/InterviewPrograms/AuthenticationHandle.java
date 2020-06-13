@@ -1,6 +1,7 @@
 package InterviewPrograms;
 
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -13,8 +14,10 @@ public class AuthenticationHandle {
 		option.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"}); 
 		ChromeDriver driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
+		driver.get("https://www.google.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://apps.harman.com");
+		int linkCount = driver.findElements(By.xpath("//a")).size();
+		System.out.println(linkCount);
 
 	}
 

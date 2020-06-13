@@ -1,7 +1,5 @@
 package InterviewPrograms;
 
-import java.util.Scanner;
-
 public class PrimeNumber {
 
 	static void prime1() {
@@ -21,30 +19,22 @@ public class PrimeNumber {
 	}
 
 	static void prime2() {
-
-		System.out.println("Please enter any number");
-		Scanner scan = new Scanner(System.in);
-		int num = scan.nextInt();
-		scan.close();
-		int temp;
-		boolean isPrime = false;
-
-		for (int i = 2; i <= num / 2; i++) {
-			{
-				temp = num % i;
-				if (temp == 0) {
-					isPrime = true;
-					break;
-				}
+		
+		boolean flag = false;
+		int n=10;
+		for(int i=2;i<=n/2;i++) {
+			if(n%i==0) {
+				flag = true;
+				break;
 			}
 		}
-		if (!isPrime) {
-			System.out.println("Given number is a prime");
-		} else {
-			System.out.println("Given number is not a prime");
+		if(flag) {
+			System.out.println("Given number is not prime");
+		}else {
+			System.out.println("Given numbe is prime");
 		}
+		
 	}
-
 	public static void main(String args[]) {
 
 		PrimeNumber.prime2();

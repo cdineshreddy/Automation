@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="3">
+  
+  
+  <test name="TestChromeBrowser">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="NewPrograms.CrossBrowserTesting"/>
+    </classes>
+   </test> 
+
+
+  <test name="TestFirefoxBrowser">
+   <parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="NewPrograms.CrossBrowserTesting"/>
+    </classes>
+   </test> 
+   
+  
+  <test name="TestEdgeBrowser">
+   <parameter name="Browser" value="edge"></parameter>
+    <classes>
+      <class name="NewPrograms.CrossBrowserTesting"/>
+    </classes>
+   </test> 
+</suite> 

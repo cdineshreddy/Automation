@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13327" started-at="2020-06-05T17:20:53 IST" finished-at="2020-06-05T17:21:06 IST">
+  <suite name="Suite" duration-ms="17068" started-at="2020-06-13T11:47:53 IST" finished-at="2020-06-13T11:48:11 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13327" started-at="2020-06-05T17:20:53 IST" finished-at="2020-06-05T17:21:06 IST">
-      <class name="NewPrograms.AuthenticationPopup">
-        <test-method status="PASS" signature="test1()[pri:0, instance:NewPrograms.AuthenticationPopup@2b552920]" name="test1" duration-ms="13242" started-at="2020-06-05T17:20:53 IST" description="Aproach 1" finished-at="2020-06-05T17:21:06 IST">
+    <test name="TestChromeBrowser" duration-ms="8452" started-at="2020-06-13T11:47:53 IST" finished-at="2020-06-13T11:48:02 IST">
+      <class name="NewPrograms.CrossBrowserTesting">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:NewPrograms.CrossBrowserTesting@2a17b7b6]" name="setUp" is-config="true" duration-ms="4202" started-at="2020-06-13T11:47:54 IST" finished-at="2020-06-13T11:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- NewPrograms.AuthenticationPopup -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getPagetitle()[pri:0, instance:NewPrograms.CrossBrowserTesting@2a17b7b6]" name="getPagetitle" duration-ms="3445" started-at="2020-06-13T11:47:58 IST" finished-at="2020-06-13T11:48:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPagetitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:NewPrograms.CrossBrowserTesting@2a17b7b6]" name="tearDown" is-config="true" duration-ms="756" started-at="2020-06-13T11:48:01 IST" finished-at="2020-06-13T11:48:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NewPrograms.CrossBrowserTesting -->
+    </test> <!-- TestChromeBrowser -->
+    <test name="TestEdgeBrowser" duration-ms="8523" started-at="2020-06-13T11:48:02 IST" finished-at="2020-06-13T11:48:11 IST">
+      <class name="NewPrograms.CrossBrowserTesting">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:NewPrograms.CrossBrowserTesting@1b68ddbd]" name="setUp" is-config="true" duration-ms="3491" started-at="2020-06-13T11:48:02 IST" finished-at="2020-06-13T11:48:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getPagetitle()[pri:0, instance:NewPrograms.CrossBrowserTesting@1b68ddbd]" name="getPagetitle" duration-ms="4295" started-at="2020-06-13T11:48:06 IST" finished-at="2020-06-13T11:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPagetitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:NewPrograms.CrossBrowserTesting@1b68ddbd]" name="tearDown" is-config="true" duration-ms="729" started-at="2020-06-13T11:48:10 IST" finished-at="2020-06-13T11:48:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NewPrograms.CrossBrowserTesting -->
+    </test> <!-- TestEdgeBrowser -->
+  </suite> <!-- Suite -->
 </testng-results>
