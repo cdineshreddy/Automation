@@ -6,6 +6,7 @@ public class Question2 {
 		System.out.println("Static method called");
 	}
 	
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		Question2 q = null;
 		q.show();
