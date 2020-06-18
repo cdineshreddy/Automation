@@ -2,10 +2,11 @@ package JavaPrograms;
 
 
 //We cannot create an object in interface as interface should have abstract methods
+
 interface Bank {
 	
 	public abstract void bankName();
-	public abstract void depositMoney();
+	public abstract void depositMoney(); 
 	public abstract void withDrawMoney();
 	public static final int i=10;//By default variables in interface should be public/default static final
 }
