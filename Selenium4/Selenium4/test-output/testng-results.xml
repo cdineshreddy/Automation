@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13514" started-at="2020-06-03T20:40:48 IST" finished-at="2020-06-03T20:41:02 IST">
+  <suite name="Default suite" duration-ms="23358" started-at="2020-06-22T15:51:27Z" finished-at="2020-06-22T15:51:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13514" started-at="2020-06-03T20:40:48 IST" finished-at="2020-06-03T20:41:02 IST">
-      <class name="Selenium4.Locators">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Selenium4.Locators@1d29cf23]" name="setUp" is-config="true" duration-ms="12586" started-at="2020-06-03T20:40:48 IST" finished-at="2020-06-03T20:41:01 IST">
+    <test name="Default test" duration-ms="23358" started-at="2020-06-22T15:51:27Z" finished-at="2020-06-22T15:51:51Z">
+      <class name="Selenium4.OpenNewTab">
+        <test-method status="PASS" signature="openNewWindow()[pri:0, instance:Selenium4.OpenNewTab@1a968a59]" name="openNewWindow" duration-ms="23327" started-at="2020-06-22T21:21:27Z" finished-at="2020-06-22T21:21:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium4.Locators@1d29cf23]" name="test1" duration-ms="177" started-at="2020-06-03T20:41:01 IST" description="Test Book5 is left of Book6 &amp; below book1" finished-at="2020-06-03T20:41:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Selenium4.Locators@1d29cf23]" name="close" is-config="true" duration-ms="695" started-at="2020-06-03T20:41:01 IST" finished-at="2020-06-03T20:41:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Selenium4.Locators -->
+        </test-method> <!-- openNewWindow -->
+      </class> <!-- Selenium4.OpenNewTab -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
