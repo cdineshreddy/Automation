@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -17,6 +18,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
 public class Reporting extends TestListenerAdapter{
+	
+	WebDriver driver;
 	
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentReports extent;
