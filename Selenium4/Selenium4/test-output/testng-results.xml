@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23358" started-at="2020-06-22T15:51:27Z" finished-at="2020-06-22T15:51:51Z">
+  <suite name="Default suite" duration-ms="10311" started-at="2020-06-25T16:53:44Z" finished-at="2020-06-25T16:53:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23358" started-at="2020-06-22T15:51:27Z" finished-at="2020-06-22T15:51:51Z">
-      <class name="Selenium4.OpenNewTab">
-        <test-method status="PASS" signature="openNewWindow()[pri:0, instance:Selenium4.OpenNewTab@1a968a59]" name="openNewWindow" duration-ms="23327" started-at="2020-06-22T21:21:27Z" finished-at="2020-06-22T21:21:51Z">
+    <test name="Default test" duration-ms="10311" started-at="2020-06-25T16:53:44Z" finished-at="2020-06-25T16:53:54Z">
+      <class name="Selenium4.CaptureScreenshot">
+        <test-method status="PASS" signature="screenshotTest()[pri:0, instance:Selenium4.CaptureScreenshot@27c20538]" name="screenshotTest" duration-ms="10286" started-at="2020-06-25T22:23:44Z" finished-at="2020-06-25T22:23:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openNewWindow -->
-      </class> <!-- Selenium4.OpenNewTab -->
+        </test-method> <!-- screenshotTest -->
+      </class> <!-- Selenium4.CaptureScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

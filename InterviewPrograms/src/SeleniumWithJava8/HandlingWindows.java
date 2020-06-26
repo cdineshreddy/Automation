@@ -18,8 +18,8 @@ public class HandlingWindows {
 		
 		driver.findElement(By.xpath("//a[text()='Good PopUp #2']")).click();
 		Thread.sleep(3000);
-		switchWindow(driver,"PopupTest Thursday June, 25 2020");
-		System.out.println(driver.getTitle());
+		String pageTitle=switchWindow(driver,"PopupTest Thursday June, 25 2020");
+		System.out.println(pageTitle);
 		driver.quit();
 		
 	}
