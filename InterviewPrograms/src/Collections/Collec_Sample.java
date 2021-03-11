@@ -84,6 +84,7 @@ public class Collec_Sample {
 			for(Map.Entry<Integer, String> map:m.entrySet())
 			{
 				System.out.println(map.getKey()+ " "+map.getValue());
+				
 			}
 			System.gc();
 		}
