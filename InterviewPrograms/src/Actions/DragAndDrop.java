@@ -2,10 +2,12 @@ package Actions;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+
 
 public class DragAndDrop {
 
@@ -14,7 +16,7 @@ public class DragAndDrop {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			ChromeDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 			driver.get("https://dhtmlx.com/docs/products/dhtmlxTree/");
 			
 			Actions action = new Actions(driver);
