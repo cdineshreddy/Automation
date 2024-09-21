@@ -1,6 +1,6 @@
 package SeleniumWithJava8;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ public class HandlingWindows {
 		
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("http://popuptest.com/goodpopups.html");
 		driver.manage().window().maximize();
 		

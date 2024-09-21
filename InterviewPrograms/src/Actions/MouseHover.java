@@ -1,7 +1,8 @@
 package Actions;
 
+import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +15,7 @@ public class MouseHover {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://www.mercurytravels.co.in/");
 		
 		Actions action = new Actions(driver);

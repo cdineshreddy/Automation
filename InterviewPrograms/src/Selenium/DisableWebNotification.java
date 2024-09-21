@@ -1,6 +1,6 @@
 package Selenium;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -43,7 +43,7 @@ public class DisableWebNotification {
 		driver = new ChromeDriver(option);
 		driver.get("https://www.icicibank.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		displayPopup();
 		System.out.println("Fetching all the image details from ICICI bank home page");

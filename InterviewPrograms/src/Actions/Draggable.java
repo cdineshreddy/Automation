@@ -1,6 +1,6 @@
 package Actions;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +13,7 @@ public class Draggable {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://jqueryui.com/draggable/");
 		
 		Actions action = new Actions(driver);

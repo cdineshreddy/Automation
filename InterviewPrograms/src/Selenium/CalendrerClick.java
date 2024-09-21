@@ -1,8 +1,7 @@
 package Selenium;
 
+import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,7 +18,7 @@ public class CalendrerClick {
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.cleartrip.com");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		departDate("31");
 
 	}

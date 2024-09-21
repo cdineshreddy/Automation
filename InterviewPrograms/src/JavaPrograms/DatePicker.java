@@ -1,6 +1,6 @@
 package JavaPrograms;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,7 +22,7 @@ public class DatePicker {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://phptravels.net/home");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 		driver.findElement(By.xpath("//input[@id='checkin']")).click();
 		Thread.sleep(3000);

@@ -1,8 +1,9 @@
 package SeleniumWithJava8;
 
+import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,7 +15,7 @@ public class GetLinks {
 		
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		

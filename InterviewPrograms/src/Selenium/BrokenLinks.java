@@ -3,8 +3,9 @@ package Selenium;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -34,7 +35,7 @@ public class BrokenLinks {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://newtours.demoaut.com/");
 		
 		JavascriptExecutor jse= (JavascriptExecutor)driver;

@@ -1,6 +1,6 @@
 package Selenium;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,7 +15,7 @@ public class AuthenticationHandle {
 		ChromeDriver driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		int linkCount = driver.findElements(By.xpath("//a")).size();
 		System.out.println(linkCount);
 

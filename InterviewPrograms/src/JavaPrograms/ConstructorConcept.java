@@ -21,6 +21,7 @@ class A {
 
 public class ConstructorConcept extends A {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Throwable {
 		ConstructorConcept cc = new ConstructorConcept();
 		cc.finalize();

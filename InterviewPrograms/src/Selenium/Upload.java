@@ -1,6 +1,6 @@
 package Selenium;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ public class Upload {
 		
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://demo.automationtesting.in/Register.html");
 		driver.manage().window().maximize();
 		

@@ -14,6 +14,7 @@ public class ConsOverloading {
 	}
 
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Throwable {
 		
 		ConsOverloading cl=new ConsOverloading(10, 20);
